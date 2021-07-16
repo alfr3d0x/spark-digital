@@ -1,0 +1,19 @@
+.square-container {
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid;
+}
+.circle {
+  border-radius: 50%;
+  background-color: red;
+  height: 10rem;
+  opacity: 0;
+}
+
+.active {
+  opacity: 1;
+}
+
+.last-visited {
+  opacity: 0.3 !important;
+}

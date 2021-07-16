@@ -1,0 +1,22 @@
+.title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 10rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 21rem;
+}
+
+.row > * {
+  flex: 0 1 10rem;
+}

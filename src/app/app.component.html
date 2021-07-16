@@ -1,0 +1,12 @@
+<div class="title">SPARK-DIGITAL Code Challenge</div>
+<div class="container">
+  <div class="row">
+    <div *ngFor="let square of [0, 1, 2, 3]; let i = index">
+      <app-square
+        [isActive]="active == i"
+        [lastVisited]="lastVisited == i"
+        (click)="handleClick(i)"
+      ></app-square>
+    </div>
+  </div>
+</div>
